@@ -1,0 +1,163 @@
+.content{                      /*section qui enveloppe toute les modal*/
+  margin-left: 20vw;
+  z-index: 10000;
+  height: 100%;
+  width: 80vw;
+}
+
+
+.cityCardContainer{
+  margin: 0;
+  padding:0;
+  border: 0;
+  margin-bottom: 25vh;
+  position: relative;
+  z-index: 10000;
+  display: none;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-template-rows: 40% 40%;
+  gap: 5%;
+}
+
+.emptyFormations{
+  font-size: 1.3vw;
+  color: $soft-white;
+  background-color: $red-simplon;
+  position: relative;
+  text-align: center;
+  height: 5vh;
+  top: 30vh;
+  left: 50%;
+  width: 60vw;
+  border-radius: 10px;
+  animation-name: animempty;
+  animation-duration: 0.8s;
+}
+@keyframes animempty {
+  from {left:-50%; opacity:0}
+  to {left:50%; opacity:1}
+}
+
+.modal li{
+  font-size: 70%;
+  list-style-type: none;
+  text-align:center;
+  margin-top: 15%;
+  font-weight: bold;
+  font-size: 1vw;
+  img{
+    height: 50%;
+    width: 20%;
+  }
+}
+
+
+.modal-footer a{
+  font-size: 1.5vmin;
+  text-decoration: none;
+  color: $soft-white;
+  border-radius: 10px;
+  background: $red-simplon;
+  padding: 3%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 45%;
+  text-align: center;
+
+
+}
+
+.modal h2{
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.modal h5{
+  margin:auto;
+  font-size: 1vw;
+  text-align: center;
+  text-decoration: none;
+  color: $soft-white;
+  background: $red-simplon;
+  width: 50%;
+  border-radius: 10px;
+
+}
+
+.detailbtn:hover, .modal-footer a:hover {
+  box-shadow: inset 0.5vw 0.5vh 1vmin 0 #3f0404;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.btnrack{
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.detailbtn{
+  font-size: 1.5vmin;
+  font-weight: bo;
+  text-decoration: none;
+  color: $soft-white;
+  border-radius: 10px;
+  background: $red-simplon;
+  padding: 3%;
+}
+
+.modal-content {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 30% 50% 20%;
+  height: 100%;
+  row-gap: 1vh;
+  border-radius: 5%;
+  position: relative;
+  z-index: 1000;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  border-top: 0.5vh solid $red-simplon;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.3s;
+  animation-name: animatetop;
+  animation-duration: 0.8s;
+}
+
+/* Add Animation */
+
+@keyframes animatetop {
+  from {left:-300px; opacity:0}
+  to {left:0; opacity:1}
+}
+
+.modal-header{
+  z-index: 1000;
+  text-align: center;
+}
+
+.modal-body {
+  margin-top: 1vh;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0;
+  z-index: 1000;
+  min-height: 10vh;
+  margin: 0;
+}
+
+.active{
+  display: grid;
+}

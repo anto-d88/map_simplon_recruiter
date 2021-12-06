@@ -1,0 +1,113 @@
+.contact {
+  display: none; /* Hidden by default */
+  position: absolute; /* Stay in place */
+  z-index: 1000000;
+  margin-top: 10vh; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto;
+}
+.poweredBy {
+  margin-left: 80%;
+  text-align: right;
+}
+
+.contactbox {
+  border-radius: 15px;
+  position: relative;
+  z-index: 1000000;
+  width: 30vw;
+  height: 50vh;
+  border: 2px solid $red-simplon;
+  top: 0;
+  left: 0;
+  padding: 5vh 5vh;
+  background-color: $soft-white;
+  box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.8);
+  margin: auto;
+  -webkit-animation-name: animateform;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animateform;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animateform {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes animateform {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.inputbox {
+  border-radius: 10px; /************TAILLE DES INPUTBOX + MISE EN FORME****************/
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid #ce0033;
+  padding: 2px;
+  color: #111;
+  outline: none;
+  font-size: 2vh;
+  font-weight: 300;
+  resize: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: block;
+}
+
+// .contactbox h3 {                                   /************MISE EN FORME DU H3*********************/
+//     color: #111;
+//     font-size: 1.2em;
+//     margin-bottom: 10px;
+// }
+
+#submit_form {
+  border-radius: 10px;
+  margin-left: 38%;
+  padding: 0.5em;
+  font-size: 1.5vh;
+  font-weight: 700;
+  color: #fff;
+  background: #ce0033;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  outline: none;
+  border: none;
+}
+
+.contactbox a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.contactbox a:hover {
+  cursor: pointer;
+  color: #f1f1f1;
+}
+.contactbox .closebtnform {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  // margin-left: 50px;
+}

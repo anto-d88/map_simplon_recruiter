@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 94 156.8"
+   version="1.1"
+   id="svg49"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview51"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="4.1071429"
+     inkscape:cx="-39.808696"
+     inkscape:cy="73.043478"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg49" />
+  <defs
+     id="defs33">
+    <linearGradient
+       id="linearGradient951"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop949" />
+    </linearGradient>
+    <style
+       id="style31">.cls-1{fill:red;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:7px;}.cls-3{fill:#fff;}</style>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient951"
+       id="linearGradient953"
+       x1="2.7900009"
+       y1="47"
+       x2="91.209999"
+       y2="47"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <title
+     id="title35">Fichier 1</title>
+  <g
+     id="Calque_2"
+     data-name="Calque 2">
+    <g
+       id="Calque_1-2"
+       data-name="Calque 1">
+      <circle
+         class="cls-1"
+         cx="47"
+         cy="47"
+         r="47"
+         id="circle37"
+         style="fill:#ce0033;fill-opacity:1" />
+      <path
+         class="cls-1"
+         d="M54.38,151.87,91.51,62a8,8,0,0,0-7.38-11H9.87A8,8,0,0,0,2.49,62l37.13,89.84A8,8,0,0,0,54.38,151.87Z"
+         id="path39"
+         style="fill:#ce0033;fill-opacity:1" />
+      <circle
+         class="cls-2"
+         cx="47"
+         cy="47"
+         r="40.71"
+         id="circle41"
+         style="fill-opacity:1;fill:url(#linearGradient953);stroke:none" />
+      <rect
+         class="cls-3"
+         x="40.64"
+         y="27.79"
+         width="12.71"
+         height="12.71"
+         id="rect43"
+         style="fill:#ce0033;fill-opacity:1" />
+      <rect
+         class="cls-3"
+         x="40.64"
+         y="53.29"
+         width="12.71"
+         height="12.71"
+         id="rect45"
+         style="fill:#ce0033;fill-opacity:1" />
+    </g>
+  </g>
+  <metadata
+     id="metadata1397">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Fichier 1</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

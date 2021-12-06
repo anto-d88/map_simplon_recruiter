@@ -1,0 +1,59 @@
+
+/*
+.register {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5vw;
+  border-color: $red-simplon;
+  background-color: $soft-white;
+}
+*/
+/*
+.login {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5vw;
+  border: 1vw;
+  border-color: $red-simplon;
+  background-color: $soft-white;
+  box-shadow: $colour-secondary;
+}
+*/
+
+.loginbox {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+  background: $soft-white;
+  border: 5px $red-simplon;
+  box-sizing: border-box;
+  // box-shadow: 8px 8px 6px 6px $shadow;
+}
+
+.loginform, .registerform{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.registerbox {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  top: 25%;
+  background: $soft-white;
+  border: 5px solid $red-simplon;
+  box-sizing: border-box;
+  // box-shadow: 8px 8px 6px 6px $shadow;
+}
+

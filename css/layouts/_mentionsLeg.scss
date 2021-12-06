@@ -1,0 +1,55 @@
+.mentionleglink:hover{
+  cursor: pointer;
+}
+
+.closebtnMentions{
+  font-size: 3rem;
+  line-height: 1.5rem;
+  text-align: right;
+}
+
+.closebtnMentions:hover{
+  cursor: pointer;
+}
+
+#mentionsLeg{
+  -webkit-box-shadow: 0px 0px 36px 15px rgba(28,28,28,0.4), 0px 0px 36px 15px rgba(28,28,28,0.4);
+  box-shadow: 0px 0px 36px 15px rgba(28,28,28,0.4), 0px 0px 36px 15px rgba(28,28,28,0.4);
+  margin-left: 10vw;
+  overflow-y: auto;
+  background-color: $soft-white;
+  font-size: 125%;
+  position: absolute;
+  z-index: 100000;
+  display: none;
+  flex-direction: column;
+  height: 80vh;
+  width: 80vw;
+  border-left: solid;
+  border-right: solid;
+  border-color: $red-simplon;
+  border-width: 0.5vw;
+  h1{
+    text-align: center;
+  }
+}
+
+.mentionTitle{
+  font-size: 150%;
+  color: $red-simplon;
+  text-align: center;
+}
+
+.mentionSect {
+  text-align: center;
+  width: 90%;
+  align-self: center;
+}
+
+#egalitep1{
+  font-weight: bolder;
+}
+
+#egalitep2{
+  font-weight: bolder;
+}

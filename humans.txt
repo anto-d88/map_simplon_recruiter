@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Hamid -- Back End Dev
+    Antonio -- UI/UX Designer
+    Lorenzo -- General Dev
+
+# THANKS
+
+    Simplon
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, Js
+    Strapi.io, NodeJs, Modernizr, Normalize.css

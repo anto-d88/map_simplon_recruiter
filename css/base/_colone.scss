@@ -1,0 +1,92 @@
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 20vw;
+  z-index: 10000;
+  position: fixed;
+  border-right: 0.2vw solid #ce0033;
+  background-color: $soft-white;
+  animation-name: animaSidenav;
+  animation-duration: 0.8s;
+}
+
+@keyframes animaSidenav {
+  from {
+    left: -20vw;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.sidenav-header{
+  padding: 2px 16px;
+  }
+  .sidenav-body{
+    padding: 2px 16px;
+    padding-bottom: 20px;
+  li{
+    list-style: square;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.2vw;
+    margin-bottom: 5px;
+  }
+  }
+
+  .sidenav-footer{
+    display: flex;
+    justify-content: center;
+    padding: 0.5vh 1vw;
+    margin-bottom: 1vh;
+  }
+
+  .btn-contact {
+    width: 80%;
+    height: 60%;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: $soft-white;
+    background: $red-simplon;
+    background-size: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 1%;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+
+.filterSelect{
+  width: 90%;
+  appearance: none;
+  font-size: 1.3vw;
+  background-color: $red-simplon;
+  color: $soft-white;
+  border-radius: 1vh;
+  -webkit-border-radius: 1vh;
+  -moz-border-radius: 1vh;
+  -ms-border-radius: 1vh;
+  -o-border-radius: 1vh;
+  border: 0;
+  padding: 2vmin;
+}
+
+.sidenav-content{
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+  height: 90%;
+  gap: 5%;
+  margin-left: 5%;
+}
+
+#selectedCity{
+  font-size: 1.5vw;
+}
