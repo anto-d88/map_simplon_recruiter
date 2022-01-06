@@ -172,7 +172,7 @@ function generateAllFormation(json) {
   for (let i = 0; i < json.length; i++) {
     generateHtmlCard(
       "modal" + json[i].ville,
-      i,
+      
       json[i].ville,
       json[i].nom,
       json[i].date,
